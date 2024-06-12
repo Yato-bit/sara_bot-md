@@ -9,9 +9,9 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 try {
 let vn = './Menu.png'
 let pp = imagen4
-let img = await(await fetch('https://telegra.ph/.')).buffer() 
+let img = await(await fetch('https://telegra.ph/.')).buffer()
 let d = new Date(new Date + 3600000)
-let locale = 'ar')
+let locale = 'ar'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
 let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
 let _uptime = process.uptime() * 1000
@@ -24,7 +24,7 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `مرحبا بك/ي معاك/ي Yato-𝐵𝛩𝑇
+let str = `مرحبا بك/ي معاك/ي Yato𝐵𝛩𝑇
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 قسم الجروبات 🪭
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
@@ -237,4 +237,4 @@ function clockString(ms) {
     let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
     let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-}
+                         }

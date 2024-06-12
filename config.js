@@ -7,21 +7,21 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑』*"
+global.botnumber = "*『👑Yato-𝐵𝛩𝑇👑』*"
 global.confirmCode = ""
 
-global.owner = [['201280244814', '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
+global.owner = [['201507652073', '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
 ];
 
-global.suittag = ['201280244814'];
-global.prems = ['201280244814'];
+global.suittag = ['201507652073'];
+global.prems = ['201507652073'];
 
-global.packname = '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩';
-global.author = '👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑';
-global.wm = '👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑';
-global.titulowm = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
-global.titulowm2 = `☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎`
-global.igfg = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
+global.packname = 'Yato 𝐿𝐼𝐺𝐻𝑇⁩';
+global.author = '👑Yato-𝐵𝛩𝑇👑';
+global.wm = '👑Yato-𝐵𝛩𝑇👑';
+global.titulowm = '☾︎ 👑Yato-𝐵𝛩𝑇👑 ☽︎';
+global.titulowm2 = `☾︎ 👑Y𝐴TO-𝐵𝛩𝑇👑 ☽︎`
+global.igfg = '☾︎ 👑Yato-𝐵𝛩𝑇👑 ☽︎';
 global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -43,14 +43,14 @@ global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎`;
-global.gt = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
-global.mysticbot = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
-global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
+global.gt = '☾︎ 👑Yato-𝐵𝛩𝑇👑 ☽︎';
+global.mysticbot = '☾︎ 👑Yato-𝐵𝛩𝑇👑 ☽︎';
+global.md = 'https://chat.whatsapp.me 201507652073';
 global.mysticbot = 'atom.bio/harley_light';
 global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.nomorown = '201280244814';
+global.nomorown = '201507652073';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
